@@ -3,17 +3,30 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
 }
-.fontMenu{
 
+.d-flex{
+    display: flex;
 }
-.fontText{
-font-size: 20px;
+
+.al-center{
+    align-items: center;
 }
-.fontFooter{
+
+.jc-center {
+    justify-content: center;
+}
+
+.fontSizeText {
+    font-size: 20px;
+}
+
+.fontSizeFooter {
     font-size: 25px;
+}
 
+.fontBold {
+    font-weight: bold;
 }
 
 header,
@@ -26,13 +39,35 @@ header {
     position: absolute;
     height: 40px;
     width: 100vw;
+    justify-content: space-around;
+}
 
+#logo {
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px 20px;
+}
+
+a {
+    margin: 0 30px;
+    width: 33%;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 15px;
+}
+
+a:hover {
+    background-color: #F9A825;
 }
 
 main {
     height: 100vh;
-    display: flex;
-    justify-content: center;
 }
 
 .container {
@@ -40,7 +75,6 @@ main {
     width: 50%;
     justify-content: center;
     align-items: center;
-
 }
 
 .container-1 {
@@ -56,7 +90,7 @@ main {
 
 .containerMenor {
     height: auto;
-    
+
 }
 
 #div1 {
@@ -64,46 +98,53 @@ main {
     padding: 0 10px 0 20px;
 }
 
-#div2{
+#div2 {
     display: flex;
     padding: 0 20px 0 10px;
 }
 
 #lorem {
-    background-color: lightgray;
+    background-color: rgb(238, 238, 238);
     padding: 15px;
     font-weight: normal;
 }
-form{
+
+form {
     height: auto;
     width: 100%;
-    display: flex;
     flex-direction: column;
 }
-form>div,form>label, form>input{
+
+form>div,
+form>label,
+form>input {
     margin: 10px 0;
 }
-form> input {
-    padding: 5px 0;
+
+form>input {
+    padding: 5px;
     outline: none;
 }
-form > div{
-    display:flex ;
+
+form>div {
     justify-content: flex-end;
-    
+
 }
-.btn_form{
+
+.btn_form {
     padding: 5px;
     border-radius: 5px;
     outline: none;
     cursor: pointer;
 }
-.btn_form:hover{
+
+.btn_form:hover {
     background-color: lightgray;
 
 
 }
-#btn-reset{
+
+#btn-reset {
     margin-right: 10px
 }
 
@@ -112,7 +153,4 @@ footer {
     bottom: 0;
     height: 80px;
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
