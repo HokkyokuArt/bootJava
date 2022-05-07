@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    
+}
+nav{
+    width: 25%;
+    border-right: 2px solid rgba(200, 200, 200, 0.567);
+    
+    
+}
+ul{
+    padding: 15px ;
+    
+}
+li{
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+div{
+   width: 100%;
+}
+
+span{
+    align-self: center;
+    margin-right: 15px;
+}
+p{
+    align-self: center;
+
+}
