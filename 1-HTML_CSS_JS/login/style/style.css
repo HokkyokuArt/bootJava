@@ -18,7 +18,6 @@
     height: 100vh;
 }
 
-
 .content-100 {
     width: 100%;
     height: auto;
@@ -53,6 +52,7 @@ input {
     padding: 10px;
     outline: none;
     background-color: rgba(234, 255, 0, 0.1);
+    
 }
 
 input:focus {
@@ -66,4 +66,10 @@ button {
     background-color: #1e8fffe5;
     outline: none;
     border: 0px;
+    box-shadow: 2px 2px 5px 3px rgba(0,0,0,0.6);
+    transition: 0.5s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 1px 5px 10px 3px rgba(0,0,0,0.6);
 }
