@@ -1,4 +1,5 @@
-![logo_TIAcademy](https://user-images.githubusercontent.com/83440836/168492026-0c1f96c4-7128-4a32-8299-3c992922f19a.png)<h1 align="center"> Bootcamp Java - Curso Ti academy </h1> 
+![logo_TIAcademy](https://user-images.githubusercontent.com/83440836/168492026-0c1f96c4-7128-4a32-8299-3c992922f19a.png)<h1 align="center"> Bootcamp Java - Curso TI Academy </h1> 
+<h2 align="center">HTML/CSS</h2>
 
 <br>
 
